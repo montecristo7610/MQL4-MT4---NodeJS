@@ -1,0 +1,22 @@
+{
+	"compilerOptions": {
+		"module": "commonjs",
+		"noImplicitAny": true,
+		"removeComments": true,
+		"preserveConstEnums": true,
+		"sourceMap": true,
+		"target": "esnext",
+		"lib": ["es2017", "dom", "esnext"],
+		"outDir": "build",
+		"declaration": true,
+		"strictNullChecks": true
+	},
+	"include": [
+		"src/**/*"
+	],
+	"exclude": [
+		".idea",
+		"/node_modules",
+		"**/*.spec.ts"
+	]
+}
